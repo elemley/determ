@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from matplotlib import colors
 from random import *
+from mpi4py import MPI
 
 
 
@@ -13,6 +14,10 @@ start_time = time.time()
 
 
 def main():
+    comm = MPI.COMM_WORLD
+    print("Hello! I'm rank %d from %d running in total..." % (comm.rank, comm.size))
+    comm.Barrier()  # wait for everybody to synchronize _here_
+
     fname = "m0016x0016.bin"
     a = np.fromfile(fname)
     print(a)
