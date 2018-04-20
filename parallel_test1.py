@@ -58,14 +58,14 @@ def main():
                 #print(my_block, comm.rank)
 
             if comm.rank == block_count:
-                # here is where work can be done (i.e. LU decomp)
+                # here is where work can be done on each block (i.e. LU decomp)
                 result = np.linalg.det(my_block)
                 my_determ = np.empty(1, dtype=np.float64)
                 my_determ[0] = result
                 #you have to send back to the head node... but you can't send back a float/double -- so here's a 1x1 array
                 comm.Send([my_determ, MPI.DOUBLE], dest=0, tag=88)
 
-            if comm.rank == 0:  #this is where actual work is done on each block
+            if comm.rank == 0:
                 curr_determ = np.empty(1, dtype=np.float64)
                 comm.Recv([curr_determ, MPI.DOUBLE], source=block_count, tag=88)
                 determs.append(curr_determ)
