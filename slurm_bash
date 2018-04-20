@@ -5,11 +5,11 @@
 #SBATCH -p nodes
 #SBATCH -e determ_error.out
 #SBATCH -t 12:00:00
-#SBATCH --ntasks=16
+#SBATCH --ntasks=8
 #SBATCH --cpus-per-task=1
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=16
-#SBATCH --ntasks-per-socket=8
+#SBATCH --ntasks-per-node=8
+#SBATCH --ntasks-per-socket=4
 #SBATCH --distribution=cyclic:cyclic
 
 #-- debug
@@ -20,9 +20,9 @@
 #-- environment
 #
 #  source /usr/share/modules/init/csh
-module load Anaconda/35
+#module load Anaconda/35
 
-mpiexec -n 16 python parallel_test1.py 
+mpiexec -n 8 python parallel_test1.py
 
 #-- exit
 #
