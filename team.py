@@ -3,7 +3,6 @@ import scipy.linalg
 import numpy as np
 import array as ar
 
-
 # LU Decomposition and Calculate Determinant
 def lu_det(a):
     determ = 1
@@ -24,12 +23,11 @@ def lu_det(a):
 
 # end
 
-
 # Read the large/raw matrix and divide it into smaller block
-n = int(16)
-m = int(4)
+n = int(512)
+m = int(32)
 lst = []
-largematrix = open("m0016x0016.bin", "rb")
+largematrix = open("m0512x0512.bin", "rb")
 output = list(range(int(n / m)))
 submatrix_file = []
 for i in range(0, int(n / m)):

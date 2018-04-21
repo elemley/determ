@@ -1,6 +1,60 @@
-srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
-slurmstepd: error: *** STEP 18776.0 CANCELLED AT 2018-04-20T10:45:15 *** on buddy24
-slurmstepd: error: *** JOB 18776 CANCELLED AT 2018-04-20T10:45:15 *** on buddy24
-srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
-slurmstepd: error: *** JOB 18777 CANCELLED AT 2018-04-20T10:45:16 *** on buddy24
-slurmstepd: error: *** STEP 18777.0 CANCELLED AT 2018-04-20T10:45:16 *** on buddy24
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/opt/Anaconda/3.5/lib/python3.5/site-packages/numpy/linalg/linalg.py:1776: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
